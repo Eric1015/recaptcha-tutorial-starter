@@ -1,0 +1,9 @@
+<h1>ユーザー登録</h1>
+<%= form_for(@user) do |f| %>
+<p>名前　（必須）</p>
+<%= f.text_field :name %>
+<p>メール　（必須）</p>
+<%= f.text_field :email %>
+<p>好きな動物</p>
+<%= f.text_field :animal %>
+<% end %>
