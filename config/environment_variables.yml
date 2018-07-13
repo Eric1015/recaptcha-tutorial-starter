@@ -1,0 +1,3 @@
+development:
+  pg_user_name: "your name"
+  pg_user_password: "your password"
