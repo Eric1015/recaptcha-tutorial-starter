@@ -1,3 +1,5 @@
 development:
   pg_user_name: "your name"
   pg_user_password: "your password"
+  recaptcha_site_key: "your site key"
+  recaptcha_secret_key: "your secret key"
