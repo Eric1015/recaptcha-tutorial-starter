@@ -32,3 +32,16 @@ body{
     width: 30%;
     margin: 5px auto;
 }
+.error{
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+    background: rgb(245, 173, 173);
+    border: 2px solid coral;
+    border-radius: 5px;
+}
+#error-message{
+    text-align: center;
+    color: red;
+    padding: 3px;
+}
