@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+
+  def index
+    redirect_to root_path
+  end
+
   def new
     @user = User.new
   end
@@ -8,7 +13,7 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to thanks_path
     else
-      render :new
+      redirect_to root_path
     end
   end
 
