@@ -1,0 +1,3 @@
+development:
+  recaptcha_site_key: "your site key"
+  recaptcha_secret_key: "your secret key"
